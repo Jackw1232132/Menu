@@ -11,8 +11,6 @@ else
 			while wait() do
 				if game.Players.LocalPlayer.PlayerGui.StatusBar.TextLabel.Text == "0:10" then
 					game.Players.LocalPlayer.Character:MoveTo(game.Workspace.GlobalLeaderboard.Position)
-				else
-					game.Players.LocalPlayer:kick("Fuck Off")
 				end
 			end
 		end
